@@ -1,0 +1,12 @@
+{
+  "name" : "shoelace-ui-transition-duration",
+  "version" : "0.0.1",
+  "description" : "`transition-duration` transparent mixin",
+  "repository" : "https://github.com/shoelace-ui/transition-duration.git",
+  "keywords" : ["stylus", "shoelace", "transition", "duration", "transition-duration"],
+  "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license" : "MIT",
+  "dependencies": {
+    "shoelace-ui-duration": "git+https://github.com/shoelace-ui/duration.git"
+  }
+}

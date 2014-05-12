@@ -1,0 +1,32 @@
+/**
+ * Module dependencies
+ */
+
+@require 'shoelace-ui-duration'
+
+/**
+ * Replace arguments in current-property
+ * with `duration--` variables, if matching.
+ *
+ * Example:
+ *
+ *   ```stylus
+ *   html {
+ *     transition-duration base
+ *   }
+ *   ```
+ *
+ *   ```css
+ *   html {
+ *     -webkit-transition-duration: 150ms;
+ *     -moz-transition-duration: 150ms;
+ *     transition-duration: 150ms;
+ *   }
+ *   ```
+ */
+
+transition-duration(time)
+  time = ((lookup('duration--' + time)) or time)
+  -webkit-transition-duration time
+  -moz-transition-duration time
+  transition-duration time
