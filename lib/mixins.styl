@@ -26,7 +26,4 @@
  */
 
 transition-duration(time)
-  time = ((lookup('duration--' + time)) or time)
-  -webkit-transition-duration time
-  -moz-transition-duration time
-  transition-duration time
+  transition-duration ((lookup('duration--' + time)) or time)
