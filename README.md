@@ -1,11 +1,11 @@
 # transition-duration
 
-`transition-duration` transparent mixin.
+`transition-duration` transparent mixin
 
-## Installation
+## Usage
 
-```sh
-$ npm install git://github.com/shoelace-ui/transition-duration.git
+```stylus
+@require 'shoelace-ui-transition-duration'
 ```
 
 ## License
